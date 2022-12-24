@@ -19,7 +19,7 @@ Answer1['Row_num'] = [7,3,4,1,6,5,2]
 Ans = pd.DataFrame(Answer1.sort_values(by='Row_num'))
 #Ans.columns = ['روزهفته','انحراف معیار تقاضای روزانه','میانگین تقاضای روزانه','ترتیب']
 Ans = Ans.iloc[:,0:3]
-Ans.columns = ['WeekDay','Std demand', 'Average demand']
+Ans.columns = ['WeekDay','Average demand', 'Std demand']
 Ans
 
 
@@ -83,9 +83,3 @@ plt.scatter(x, y, c=kmeans.labels_)
 
 # # Thanks for your attention,
 # #### Sincerely, Hamidreza Mohammadzadeh
-
-# In[ ]:
-
-
-
-
